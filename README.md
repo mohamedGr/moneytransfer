@@ -77,6 +77,7 @@ curl -X GET localhost:8080/api/accounts
 To get the details of a specific account use the `/api/account/{id}` endpoint
 ```
 curl -X GET localhost:8080/api/account/177e41d3-cb1b-4426-aaea-3d3d5623ac6c
+
 {
     "id": "177e41d3-cb1b-4426-aaea-3d3d5623ac6c",
     "balance": 1000.0,
@@ -87,6 +88,7 @@ curl -X GET localhost:8080/api/account/177e41d3-cb1b-4426-aaea-3d3d5623ac6c
 To get all the transfers associated with a specific account, inbound or outbound, use the `/api/account/{id}/transfers` endpoint
 ```
 curl -X GET localhost:8080/api/account/177e41d3-cb1b-4426-aaea-3d3d5623ac6c/transfers
+
 [
     {
         "id": "45803ac4-d9a2-44a7-ac88-ed95b51b6ec0",
